@@ -1,7 +1,37 @@
-Lembretes
 
-git status: Monitora o status do arquivo
-pwd: Mostra o caminho completo até o diretorio atual
+
+
+6  Principais comandos Git
+
+1. Git init
+
+Inicia e transformar uma pasta para controle de versão, em um repositório.
+
+2. Git clone:
+
+Comando para baixar o código-fonte existente de um repositório remoto. O repositório é baixado para o repositório local, mas continua linkado ao repositório original
+git clone https://url-do-link
+
+3. Git branch
+
+Branches permite quer vários desenvolvedores possam trabalhar paralelamente no mesmo projeto. 
+
+4. Git add
+
+O git add inclui todas as alterações de um arquivo na Staged Area preparando para o próximo commit. As alterações não serão feitas antes de realizar o comando git commit
+git add <arquivo> Para adicionar apenas um arquivo:
+git add -A ou git add * ou git add . Para adicionar todos os arquivos modificados:
+
+5. Git commit
+
+O git commit é como se fosse o save point no processo de desenvolvimento, para o qual é possível retornar, se necessário.
+git commit -m "mensagem explicando a mudança no código"
+
+6. Git push
+
+Após realizar o git commit, os arquivos ficarão em um save point no repositório local, para enviar ao repositório remoto, usamos o git push.
+git push origin main
+
 
 
 
