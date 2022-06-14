@@ -1,0 +1,10 @@
+Lembretes
+
+git status: Monitora o status do arquivo
+pwd: Mostra o caminho completo até o diretorio atual
+
+
+
+Links:
+
+Markdow -> https://www.markdownguide.org/basic-syntax/
